@@ -1,7 +1,45 @@
 
+
+body {
+	background-color: #513122;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #C2AA6D;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #C2AA6D;
+}
+
+a:hover {
+		text-decoration: underline;
+	color: white;
+}
+
 .main-canvas {
 	border: 2px solid orange;
 	background-color: #DDDDDD;
+}
+
+#content {
+	display: inline-block;
+	position: relative;
+	width: 1400px;
+}
+
+#main {
+	position: absolute;
+	left: 0px;
 }
 
 #log {
@@ -9,12 +47,12 @@
 	width: 400px;
 	left: 850px;
 	top: 350px;
+	text-align: left;
 }
 
 #edit {
 	position: absolute;
 	left: 850px;
-	top: 10px;
 }
 
 #edit-text {
