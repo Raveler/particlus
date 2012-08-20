@@ -1,0 +1,23 @@
+
+.main-canvas {
+	border: 2px solid orange;
+	background-color: #DDDDDD;
+}
+
+#log {
+	position: absolute;
+	width: 400px;
+	left: 850px;
+	top: 350px;
+}
+
+#edit {
+	position: absolute;
+	left: 850px;
+	top: 10px;
+}
+
+#edit-text {
+	width: 600px;
+	height: 300px;
+}
