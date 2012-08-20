@@ -7,6 +7,7 @@ To use Particlus, simply insert the scripts/ParticleSystem.js file into your pro
 
 To create a particle, use the following code:
 
+```
   var effect = {
 		emitterStartLocation: new Vector2(400, 190),
 		emitterStopLocation: new Vector2(440, 190),
@@ -25,10 +26,12 @@ To create a particle, use the following code:
 		globalCompositeOperation: 'lighter'
 	};
 	var system = new ParticleSystem(effect);
-  
+```
+
 To draw the particle system at a given location on a canvas AND to update the particle engine at the same time (ie, move forward in time), call the following command:
   
+```
   system.draw(canvas, 0, 0, dt); // dt is the number of milliseconds the particle engine should move forward - typically the number of ms passed since last draw() call
-
+```
 
 That's it! Enjoy.
