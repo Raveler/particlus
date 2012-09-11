@@ -5,6 +5,8 @@ Particlus is a highly performant particle system for HTML5 canvas, written in ja
 
 To use Particlus, simply insert the scripts/ParticleSystem.js file into your project. All the other files are just there for the web demo. The entire particle system is contained within the ParticleSystem.js file, which has no external dependencies.
 
+Live demo: http://www.silenistudios.com/particlus
+
 To create a particle, use the following code:
 
 ```
